@@ -820,7 +820,7 @@ h3.newsdate {
     top: -40px;
     width: 100%;
   }
-  .header-bar-navigation {
+  #bootstrap_override {
     display: block;
     width: 110%;
     float: left;
@@ -893,7 +893,7 @@ h3.newsdate {
   }
 }
 @media only screen and (max-width: 767px) {
-  .header-bar-navigation {
+  #bootstrap_override {
     display: block;
     width: 110%;
     float: left;
@@ -954,7 +954,7 @@ h3.newsdate {
   #menu .sub-menu {
     padding-bottom: 2em;
   }
-  .header-bar-navigation {
+  #bootstrap_override {
     display: block;
     width: 110%;
     float: left;
@@ -1276,7 +1276,7 @@ h3.newsdate {
   }
 }
 @media only screen and (max-width: 320px) {
-  .header-bar-navigation {
+  #bootstrap_override {
     display: block;
     width: 110%;
     float: left;

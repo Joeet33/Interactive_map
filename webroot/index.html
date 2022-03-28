@@ -2,6 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!--this timeline was inspired by: https://www.uplabs.com/posts/new-cloud-hosting-startup-features-page-design and https://jsfiddle.net/f5yn063s/!-->
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=UA-11199024-1"
@@ -54,7 +55,9 @@
       name="twitter:image"
       content="http://www.pnbpropertytrust.org/template/PNBPT_logo.png"
     />
-    <title>About Us</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
+
+    <title>Home</title>
   </head>
   <body>
     <form method="post" action="./?pname=about-us&amp;upid=2" id="form1">
@@ -137,7 +140,7 @@
             <div
               class="fill"
               style="
-                background-image: url(./images/photo1.png);
+                background-image: url(./images/alternative_header.jpg);
                 background-repeat: no-repeat;
                 background-position: top center;
                 background-size: cover;
@@ -154,6 +157,7 @@
                       ><img
                         alt="Portsmouth Naval Base Property Trust"
                         src="./images/PNBPT_Logo.png"
+                        style="margin-top: 5.9px; margin-left: -2px"
                     /></a>
                   </div>
                 </div>
@@ -161,48 +165,18 @@
                   id="bootstrap_override"
                   class="col-xs-9 header-bar-navigation"
                 >
-                  <div class="hidden-sm hidden-xs hidden-md search-block">
-                    <input
-                      name="Tb_PnbptSearchText"
-                      type="text"
-                      id="Tb_PnbptSearchText"
-                      class="search-box"
-                      placeholder="Search all site"
-                    /><input
-                      type="submit"
-                      name="BTN_Search"
-                      value=""
-                      id="BTN_Search"
-                      class="search-btn"
-                    />
-                  </div>
+                  <div class="hidden-sm hidden-xs hidden-md search-block"></div>
+
                   <nav id="menu">
                     <label for="tm" id="toggle-menu"
                       >&nbsp;<span class="drop-icon">☰</span></label
                     ><input type="checkbox" id="tm" />
                     <ul class="main-menu cf">
-                      <li><a href="/Home/1/">Home</a></li>
-                      <li>
-                        <a href="/About-Us/2/"
-                          >About Us<span class="drop-icon">▾</span
-                          ><label
-                            title="Toggle Drop-down"
-                            class="drop-icon"
-                            for="sm2"
-                            >▾</label
-                          ></a
-                        ><input type="checkbox" id="sm2" />
-                        <ul class="sub-menu">
-                          <li><a href="/Trustees/9/">Trustees</a></li>
-                          <li>
-                            <a href="/Job-Vacancies/10/">Job Vacancies</a>
-                          </li>
-                          <li><a href="/Downloads/78/">Downloads</a></li>
-                        </ul>
-                      </li>
+                      <li><a href="index.html">Home</a></li>
+
                       <li>
                         <a href="/Historic-Buildings/3/"
-                          >Historic Buildings<span class="drop-icon">▾</span
+                          >Augmented Reality<span class="drop-icon">▾</span
                           ><label
                             title="Toggle Drop-down"
                             class="drop-icon"
@@ -213,67 +187,23 @@
                         <ul class="sub-menu">
                           <li>
                             <a href="/Interactive-Property-Maps/18/"
-                              >Interactive Property Maps</a
+                              >Instagram Filters</a
                             >
                           </li>
                           <li>
                             <a href="/Historic-Dockyard-Portsmouth/16/"
-                              >Historic Dockyard Portsmouth</a
-                            >
-                          </li>
-                          <li>
-                            <a href="/Priddys-Hard-Gosport/17/"
-                              >Priddy's Hard Gosport</a
-                            >
-                          </li>
-                          <li>
-                            <a href="/Available-Lettings/19/"
-                              >Available Lettings</a
-                            >
-                          </li>
-                          <li>
-                            <a href="/Holiday-Apartments/20/"
-                              >Holiday Apartments</a
+                              >Interactive AR Experience</a
                             >
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <a href="/Historic-Boats/4/"
-                          >Historic Boats<span class="drop-icon">▾</span
-                          ><label
-                            title="Toggle Drop-down"
-                            class="drop-icon"
-                            for="sm4"
-                            >▾</label
-                          ></a
+                        <a href="/Historic-Boats/4/">Puzzles</a
                         ><input type="checkbox" id="sm4" />
-                        <ul class="sub-menu">
-                          <li>
-                            <a href="/F8-and-Charters/24/">F8 &amp; Charters</a>
-                          </li>
-                          <li>
-                            <a href="/The-Collection/25/">The Collection</a>
-                          </li>
-                        </ul>
                       </li>
                       <li>
-                        <a href="/News-and-Events/5/"
-                          >News &amp; Events<span class="drop-icon">▾</span
-                          ><label
-                            title="Toggle Drop-down"
-                            class="drop-icon"
-                            for="sm5"
-                            >▾</label
-                          ></a
-                        ><input type="checkbox" id="sm5" />
-                        <ul class="sub-menu">
-                          <li><a href="/News/37/">News</a></li>
-                          <li><a href="/Events/72/">Events</a></li>
-                        </ul>
+                        <a href="/News-and-Events/5/">Historical Timelines</a>
                       </li>
-                      <li><a href="/Volunteering/6/">Volunteering</a></li>
-                      <li><a href="/Contact-Us/7/">Contact Us</a></li>
                     </ul>
                   </nav>
                 </div>
@@ -290,207 +220,33 @@
                 <div>
                   <div class="row">
                     <div class="col-xs-12">
-                      <h1>About Us</h1>
+                      <h1>Insert Title Here</h1>
                       <p>
                         <span
                           style="
                             color: #58595b;
+
                             font-family: 'Open Sans';
+
                             font-size: 10pt;
                           "
-                          >Portsmouth Naval Base Property Trust is a charitable
-                          property company responsible for the conservation and
-                          re-use of the buildings in Portsmouth Historic
-                          Dockyard, which is the publicly accessible part of
-                          Portsmouth Naval Base. It holds a 99-year lease of the
-                          area from the Ministry of Defence and sub-lets
-                          property to the Historic Dockyard attractions and to
-                          commercial tenants.</span
-                        >
-                      </p>
-                      <p>
-                        <span
-                          style="
-                            color: #58595b;
-                            font-family: 'Open Sans';
-                            font-size: 10pt;
-                          "
-                          >The Trust's main function is that of landlord and
-                          guardian&nbsp;of Portsmouth Historic Dockyard.
-                          The&nbsp;majority of buildings and structures in the
-                          Historic Dockyard are Grade 1 and Grade 2* Listed
-                          Buildings.&nbsp;The Trust&nbsp;is responsible for
-                          keeping the historic building in a good state of
-                          repair, for collecting rent and service charges from
-                          its tenants, and for refurbishing empty or redundant
-                          buildings for appropriate new commercial uses. This
-                          ensures that the historic buildings and structures are
-                          safeguarded for the enjoyment of future generations.
+                          >Insert text here
                         </span>
                       </p>
+
+                      <h2>Insert Title Here</h2>
+
                       <p>
                         <span
                           style="
                             color: #58595b;
+
                             font-family: 'Open Sans';
+
                             font-size: 10pt;
                           "
-                          >The Trust also owns and operates the Historic
-                          Dockyard Car Park along with some retail units at
-                          Admiralty Quarter on Queen Street.
+                          >Insert text here
                         </span>
-                      </p>
-                      <p>
-                        <span
-                          style="
-                            color: #58595b;
-                            font-family: 'Open Sans';
-                            font-size: 10pt;
-                          "
-                          >The Trust received an initial government endowment to
-                          start putting the Historic Dockyard buildings into a
-                          reasonable state of repair, and now generates funding
-                          from donations, grants, trading income, property
-                          development, rents and service charges, and income
-                          from investments.
-                        </span>
-                      </p>
-                      <h2>Aims of the Trust</h2>
-                      <p>
-                        <span
-                          style="
-                            color: #58595b;
-                            font-family: 'Open Sans';
-                            font-size: 10pt;
-                          "
-                          >The following is a list of the Trust's aims in
-                          relation to Portsmouth Historic Dockyard, although its
-                          remit also extends to sites elsewhere.
-                        </span>
-                      </p>
-                      <ul style="list-style-type: disc">
-                        <li
-                          style="
-                            color: #58595b;
-                            font-family: 'Open Sans';
-                            font-size: 10pt;
-                            font-style: normal;
-                            font-weight: normal;
-                          "
-                        >
-                          <span
-                            style="font-family: 'Open Sans'; font-size: 10pt"
-                            >To restore and find appropriate uses for buildings
-                            and structures of outstanding architectural and
-                            historic interest related to HM Naval Base in the
-                            Portsmouth and south-east Hampshire area</span
-                          >
-                        </li>
-                        <li
-                          style="
-                            color: #58595b;
-                            font-family: 'Open Sans';
-                            font-size: 10pt;
-                            font-style: normal;
-                            font-weight: normal;
-                          "
-                        >
-                          <span
-                            style="font-family: 'Open Sans'; font-size: 10pt"
-                            >To extend the estate as surplus Ministry of Defence
-                            land and buildings become available</span
-                          >
-                        </li>
-                        <li
-                          style="
-                            color: #58595b;
-                            font-family: 'Open Sans';
-                            font-size: 10pt;
-                            font-style: normal;
-                            font-weight: normal;
-                          "
-                        >
-                          <span
-                            style="font-family: 'Open Sans'; font-size: 10pt"
-                            >To create an enduring maritime heritage centre of
-                            the highest class in the Historic Dockyard at
-                            Portsmouth, so that it may be enjoyed by the public
-                            for generations to come</span
-                          >
-                        </li>
-                        <li
-                          style="
-                            color: #58595b;
-                            font-family: 'Open Sans';
-                            font-size: 10pt;
-                            font-style: normal;
-                            font-weight: normal;
-                          "
-                        >
-                          <span
-                            style="font-family: 'Open Sans'; font-size: 10pt"
-                            >to protect the ethos of the Historic Dockyard and
-                            of any other related historic estate so that new
-                            development, or further commercial activity, is
-                            sensitive to its unique atmosphere</span
-                          >
-                        </li>
-                        <li
-                          style="
-                            color: #58595b;
-                            font-family: 'Open Sans';
-                            font-size: 10pt;
-                            font-style: normal;
-                            font-weight: normal;
-                          "
-                        >
-                          <span
-                            style="font-family: 'Open Sans'; font-size: 10pt"
-                            >to set and maintain the highest standards in
-                            education, interpretation and collections</span
-                          >
-                        </li>
-                        <li
-                          style="
-                            color: #58595b;
-                            font-family: 'Open Sans';
-                            font-size: 10pt;
-                            font-style: normal;
-                            font-weight: normal;
-                          "
-                        >
-                          <span
-                            style="font-family: 'Open Sans'; font-size: 10pt"
-                            >to enhance public awareness of the role of civilian
-                            workforce in supporting the Royal Navy by promoting
-                            the establishment of a Museum of the Dockyard</span
-                          >
-                        </li>
-                        <li
-                          style="
-                            color: #58595b;
-                            font-family: 'Open Sans';
-                            font-size: 10pt;
-                            font-style: normal;
-                            font-weight: normal;
-                          "
-                        >
-                          <span
-                            style="font-family: 'Open Sans'; font-size: 10pt"
-                            >to ensure that visitors have a comprehensive and
-                            enjoyable experience of the Historic Dockyard</span
-                          >
-                        </li>
-                      </ul>
-                      <p>
-                        <span
-                          style="
-                            color: #000000;
-                            font-family: Calibri;
-                            font-size: 16px;
-                          "
-                          >&nbsp;</span
-                        >
                       </p>
                     </div>
                   </div>
@@ -502,21 +258,23 @@
                     <h3 class="homeblue">Downloads:</h3>
                     <p>
                       <a
-                        href="/UserAssets/Downloads/PNBPT_20Year_Review.pdf"
+                        href="documents/pnbpt_20year_review.pdf"
                         class="goldlink"
-                        >&gt; 20 year review</a
-                      >
+                        target="_blank"
+                        >20 year review
+                      </a>
                     </p>
                     <p>
                       <a
-                        href="/UserAssets/Downloads/DRAFT%20PNBPT%20Privacy%20Notice.pdf"
+                        href="documents/draft pnbpt privacy notice.pdf"
                         class="goldlink"
-                        >&gt; Privacy Policy</a
-                      >
+                        target="_blank"
+                        >Privacy Policy
+                      </a>
                     </p>
                   </div>
                 </div>
-                <div class="col-sm-8 col-xs-12">
+                <div class="col-sm-4 col-xs-12">
                   <div>
                     <h3 class="homeblue">Supported by:</h3>
                     <p>
@@ -531,10 +289,17 @@
                       /><img
                         alt=""
                         src="./images/supportedlogos/culture recovery fund for heritage_logo_colour_png.png"
-                        style="width: 425px; height: 70px"
+                        style="width: 330px; height: 58px"
                       />
                     </p>
                   </div>
+                </div>
+                <div class="col-sm-4 col-xs-12" style="margin-top: 24px">
+                  <p>
+                    <a href="https://www.pnbpropertytrust.org/" class="bodylink"
+                      >Return to the Trust's main website</a
+                    >
+                  </p>
                 </div>
               </div>
             </div>
@@ -556,18 +321,20 @@
               </div>
               <div class="col-sm-4 col-xs-12 footermiddle">
                 <div>
-                  <p>T: 023 9282 0921</p>
+                  <p>T: <a href="tel:+442392820921">023 9282 0921</a></p>
                   <p>F: 023 9282 2437</p>
-                  <p>E: info@pnbpt.com</p>
+                  <p>E: <a href="mailto:info@pnbpt.com">info@pnbpt.com</a></p>
                 </div>
               </div>
               <div class="col-sm-4 col-xs-12 footerright">
                 <div>
                   <p>
                     <a
-                      href="/UserAssets/Downloads/DRAFT%20PNBPT%20Privacy%20Notice.pdf"
+                      href="documents/draft pnbpt privacy notice.pdf"
+                      target="_blank"
                       >Privacy Policy</a
                     >
+
                     | <a href="#">Terms &amp; Conditions</a>
                   </p>
                   <p>

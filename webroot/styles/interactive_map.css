@@ -1,13 +1,12 @@
 #contentContainer {
-  width: 550px;
-  height: 350px;
+  height: 70vh;
   border: 15px #ededed solid;
   overflow: hidden;
   background-color: #f2f2f2;
   cursor: pointer;
 }
 
-#thing {
+#character {
   width: 75px;
   height: 75px;
   background-color: rgb(255, 207, 0);
@@ -15,5 +14,5 @@
   border: 15px rgb(255, 199, 0) solid;
 
   transform: translate3D(50px, 50px, 0);
-  transition: transform 0.3s ease-in;
+  transition: transform 0.9s ease-in;
 }

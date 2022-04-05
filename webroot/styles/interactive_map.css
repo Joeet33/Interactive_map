@@ -7,11 +7,8 @@
 }
 
 #character {
-  width: 75px;
-  height: 75px;
-  background-color: rgb(255, 207, 0);
-  border-radius: 50%;
-  border: 15px rgb(255, 199, 0) solid;
+  width: 100px;
+  height: 100px;
 
   transform: translate3D(50px, 50px, 0);
   transition: transform 0.9s ease-in;

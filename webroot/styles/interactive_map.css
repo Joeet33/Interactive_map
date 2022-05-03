@@ -14,3 +14,60 @@
   transform: translate3D(50px, 50px, 0);
   transition: transform 0.9s ease-in;
 }
+
+#building1 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 27vw;
+  top: 29vw;
+}
+#building2 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 35vw;
+  top: 24vw;
+}
+#building3 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 43vw;
+  top: 21vw;
+}
+#building4 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50vw;
+  top: 18vw;
+}
+#building5 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 58vw;
+  top: 16vw;
+}
+#building6 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 62vw;
+  top: 23vw;
+}
+#building7 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 68vw;
+  top: 29vw;
+}
+#building8 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 38vw;
+  top: 38vw;
+}

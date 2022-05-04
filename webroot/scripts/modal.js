@@ -1,159 +1,90 @@
-var modal = document.getElementById("popup1");
+var modal1 = document.getElementById("popup1");
 
-var btn = document.getElementById("building1");
+var btn1 = document.getElementById("building1");
 
-var span = document.getElementsByClassName("close")[0];
-
-btn.onclick = function () {
-  modal.style.display = "block";
+btn1.onclick = function () {
+  modal1.style.display = "block";
 };
 
-span.onclick = function () {
-  modal.style.display = "none";
+var modal2 = document.getElementById("popup2");
+
+var btn2 = document.getElementById("building2");
+
+btn2.onclick = function () {
+  modal2.style.display = "block";
+};
+
+var modal3 = document.getElementById("popup3");
+
+var btn3 = document.getElementById("building3");
+
+btn3.onclick = function () {
+  modal3.style.display = "block";
+};
+
+var modal4 = document.getElementById("popup4");
+
+var btn4 = document.getElementById("building4");
+
+btn4.onclick = function () {
+  modal4.style.display = "block";
+};
+
+var modal5 = document.getElementById("popup5");
+
+var btn5 = document.getElementById("building5");
+
+btn5.onclick = function () {
+  modal5.style.display = "block";
+};
+
+var modal6 = document.getElementById("popup6");
+
+var btn6 = document.getElementById("building6");
+
+btn6.onclick = function () {
+  modal6.style.display = "block";
+};
+
+var modal7 = document.getElementById("popup7");
+
+var btn7 = document.getElementById("building7");
+
+btn7.onclick = function () {
+  modal7.style.display = "block";
+};
+
+var modal8 = document.getElementById("popup8");
+
+var btn8 = document.getElementById("building8");
+
+btn8.onclick = function () {
+  modal8.style.display = "block";
 };
 
 window.onclick = function (event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+  if (event.target == modal1) {
+    modal1.style.display = "none";
   }
-};
-
-var modal = document.getElementById("popup2");
-
-var btn = document.getElementById("building2");
-
-var span = document.getElementsByClassName("close")[0];
-
-btn.onclick = function () {
-  modal.style.display = "block";
-};
-
-span.onclick = function () {
-  modal.style.display = "none";
-};
-
-window.onclick = function (event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+  if (event.target == modal2) {
+    modal2.style.display = "none";
   }
-};
-
-var modal = document.getElementById("popup3");
-
-var btn = document.getElementById("building3");
-
-var span = document.getElementsByClassName("close")[0];
-
-btn.onclick = function () {
-  modal.style.display = "block";
-};
-
-span.onclick = function () {
-  modal.style.display = "none";
-};
-
-window.onclick = function (event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+  if (event.target == modal3) {
+    modal3.style.display = "none";
   }
-};
-
-var modal = document.getElementById("popup4");
-
-var btn = document.getElementById("building4");
-
-var span = document.getElementsByClassName("close")[0];
-
-btn.onclick = function () {
-  modal.style.display = "block";
-};
-
-span.onclick = function () {
-  modal.style.display = "none";
-};
-
-window.onclick = function (event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+  if (event.target == modal4) {
+    modal4.style.display = "none";
   }
-};
-
-var modal = document.getElementById("popup5");
-
-var btn = document.getElementById("building5");
-
-var span = document.getElementsByClassName("close")[0];
-
-btn.onclick = function () {
-  modal.style.display = "block";
-};
-
-span.onclick = function () {
-  modal.style.display = "none";
-};
-
-window.onclick = function (event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+  if (event.target == modal5) {
+    modal5.style.display = "none";
   }
-};
-
-var modal = document.getElementById("popup6");
-
-var btn = document.getElementById("building6");
-
-var span = document.getElementsByClassName("close")[0];
-
-btn.onclick = function () {
-  modal.style.display = "block";
-};
-
-span.onclick = function () {
-  modal.style.display = "none";
-};
-
-window.onclick = function (event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+  if (event.target == modal6) {
+    modal6.style.display = "none";
   }
-};
-
-var modal = document.getElementById("popup7");
-
-var btn = document.getElementById("building7");
-
-var span = document.getElementsByClassName("close")[0];
-
-btn.onclick = function () {
-  modal.style.display = "block";
-};
-
-span.onclick = function () {
-  modal.style.display = "none";
-};
-
-window.onclick = function (event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+  if (event.target == modal7) {
+    modal7.style.display = "none";
   }
-};
-
-var modal = document.getElementById("popup8");
-
-var btn = document.getElementById("building8");
-
-var span = document.getElementsByClassName("close")[0];
-
-btn.onclick = function () {
-  modal.style.display = "block";
-};
-
-span.onclick = function () {
-  modal.style.display = "none";
-};
-
-window.onclick = function (event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
+  if (event.target == modal8) {
+    modal8.style.display = "none";
   }
 };

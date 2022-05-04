@@ -101,11 +101,15 @@
 
 /* Modal Content */
 .modal-content {
-  background-color: #fefefe;
+  background-color: #113866;
+  opacity: 82%;
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 80%;
+  width: 40vw;
+  height: 35vh;
+  top: 11vh;
+  right: 3vw;
 }
 
 /* The Close Button */
@@ -121,4 +125,21 @@
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+.about_popup {
+  width: 15vw;
+  height: 27vh;
+  position: relative;
+  left: 23vw;
+  color: white;
+}
+
+.main-content p,
+.main-contentstd p {
+  color: white;
+}
+.main-content a,
+.main-contentstd a {
+  color: white;
 }

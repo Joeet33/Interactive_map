@@ -1,8 +1,9 @@
 #contentContainer {
-  height: 70vh;
+  height: 750px;
+  width: 1000px;
   border: 15px #ededed solid;
   overflow: hidden;
-  background-image: url("../images/Map.jpg");
+  background-image: url(../images/Map.jpg);
   /* cursor: pointer; */
   background-size: cover;
 }
@@ -19,55 +20,105 @@
   width: 100px;
   height: 100px;
   position: absolute;
-  left: 27vw;
-  top: 29vw;
+  top: 336px;
+  cursor: pointer;
 }
 #building2 {
   width: 100px;
   height: 100px;
   position: absolute;
-  left: 35vw;
-  top: 24vw;
+  top: 397px;
+  left: 360px;
+  cursor: pointer;
 }
 #building3 {
   width: 100px;
   height: 100px;
   position: absolute;
-  left: 43vw;
-  top: 21vw;
+  top: 341px;
+  left: 478px;
+  cursor: pointer;
 }
 #building4 {
   width: 100px;
   height: 100px;
   position: absolute;
-  left: 50vw;
-  top: 18vw;
+  top: 298px;
+  left: 586px;
+  cursor: pointer;
 }
 #building5 {
   width: 100px;
   height: 100px;
   position: absolute;
-  left: 58vw;
-  top: 16vw;
+  top: 249px;
+  left: 702px;
+  cursor: pointer;
 }
 #building6 {
   width: 100px;
   height: 100px;
   position: absolute;
-  left: 62vw;
-  top: 23vw;
+  top: 321px;
+  left: 816px;
+  cursor: pointer;
 }
 #building7 {
   width: 100px;
   height: 100px;
   position: absolute;
-  left: 68vw;
-  top: 29vw;
+  top: 397px;
+  left: 905px;
+  cursor: pointer;
 }
 #building8 {
   width: 100px;
   height: 100px;
   position: absolute;
-  left: 38vw;
-  top: 38vw;
+  top: 524px;
+  left: 512px;
+  cursor: pointer;
+}
+
+.img_size {
+  height: 110px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }

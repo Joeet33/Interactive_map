@@ -3,7 +3,7 @@
   width: 1000px;
   border: 15px #ededed solid;
   overflow: hidden;
-  background-image: url(../images/Map.jpg);
+  background-image: url(../images/map.png);
   /* cursor: pointer; */
   background-size: cover;
 }
@@ -16,14 +16,15 @@
   transition: transform 0.9s ease-in;
 }
 
-#building1 {
-  width: 100px;
-  height: 100px;
+#Storehouse10 {
+  width: 122px;
+  height: 133px;
   position: absolute;
-  top: 336px;
+  top: 288px;
   cursor: pointer;
+  left: 560px;
 }
-#building2 {
+#Boathouse4 {
   width: 162px;
   height: 146px;
   position: absolute;
@@ -31,52 +32,52 @@
   left: 332px;
   cursor: pointer;
 }
-#building3 {
-  width: 100px;
-  height: 100px;
+#Garden {
+  width: 60px;
+  height: 39px;
   position: absolute;
-  top: 341px;
-  left: 478px;
+  top: 607px;
+  left: 428px;
   cursor: pointer;
 }
-#building4 {
-  width: 100px;
-  height: 100px;
+#MastPond {
+  width: 90px;
+  height: 52px;
   position: absolute;
-  top: 298px;
-  left: 586px;
+  top: 506px;
+  left: 457px;
   cursor: pointer;
 }
-#building5 {
-  width: 100px;
-  height: 100px;
+#Statue {
+  width: 40px;
+  height: 60px;
   position: absolute;
-  top: 249px;
-  left: 702px;
+  top: 421px;
+  left: 505px;
   cursor: pointer;
 }
-#building6 {
-  width: 100px;
-  height: 100px;
+#CellBlock1 {
+  width: 68px;
+  height: 67px;
   position: absolute;
-  top: 321px;
-  left: 816px;
+  top: 513px;
+  left: 287px;
   cursor: pointer;
 }
-#building7 {
-  width: 100px;
-  height: 100px;
+#Boathouse7 {
+  width: 103px;
+  height: 94px;
   position: absolute;
-  top: 397px;
-  left: 905px;
+  top: 454px;
+  left: 503px;
   cursor: pointer;
 }
-#building8 {
-  width: 100px;
-  height: 100px;
+#Boathouse6 {
+  width: 117px;
+  height: 105px;
   position: absolute;
-  top: 524px;
-  left: 512px;
+  top: 535px;
+  left: 497px;
   cursor: pointer;
 }
 

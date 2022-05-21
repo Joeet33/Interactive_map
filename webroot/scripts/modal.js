@@ -1,6 +1,6 @@
 var modal1 = document.getElementById("popup1");
 
-var btn1 = document.getElementById("building1");
+var btn1 = document.getElementById("Storehouse10");
 
 btn1.onclick = function () {
   modal1.style.display = "block";
@@ -8,7 +8,7 @@ btn1.onclick = function () {
 
 var modal2 = document.getElementById("popup2");
 
-var btn2 = document.getElementById("building2");
+var btn2 = document.getElementById("Boathouse4");
 
 btn2.onclick = function () {
   modal2.style.display = "block";
@@ -16,7 +16,7 @@ btn2.onclick = function () {
 
 var modal3 = document.getElementById("popup3");
 
-var btn3 = document.getElementById("building3");
+var btn3 = document.getElementById("Garden");
 
 btn3.onclick = function () {
   modal3.style.display = "block";
@@ -24,7 +24,7 @@ btn3.onclick = function () {
 
 var modal4 = document.getElementById("popup4");
 
-var btn4 = document.getElementById("building4");
+var btn4 = document.getElementById("MastPond");
 
 btn4.onclick = function () {
   modal4.style.display = "block";
@@ -32,7 +32,7 @@ btn4.onclick = function () {
 
 var modal5 = document.getElementById("popup5");
 
-var btn5 = document.getElementById("building5");
+var btn5 = document.getElementById("Statue");
 
 btn5.onclick = function () {
   modal5.style.display = "block";
@@ -40,7 +40,7 @@ btn5.onclick = function () {
 
 var modal6 = document.getElementById("popup6");
 
-var btn6 = document.getElementById("building6");
+var btn6 = document.getElementById("CellBlock1");
 
 btn6.onclick = function () {
   modal6.style.display = "block";
@@ -48,7 +48,7 @@ btn6.onclick = function () {
 
 var modal7 = document.getElementById("popup7");
 
-var btn7 = document.getElementById("building7");
+var btn7 = document.getElementById("Boathouse7");
 
 btn7.onclick = function () {
   modal7.style.display = "block";
@@ -56,7 +56,7 @@ btn7.onclick = function () {
 
 var modal8 = document.getElementById("popup8");
 
-var btn8 = document.getElementById("building8");
+var btn8 = document.getElementById("Boathouse6");
 
 btn8.onclick = function () {
   modal8.style.display = "block";

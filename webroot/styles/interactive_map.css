@@ -11,9 +11,25 @@
 #character {
   width: 100px;
   height: 100px;
-
   transform: translate3D(50px, 50px, 0);
   transition: transform 0.9s ease-in;
+}
+#character1 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+#character2 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  display: none;
+}
+#character3 {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  display: none;
 }
 
 #Storehouse10 {
@@ -24,6 +40,12 @@
   cursor: pointer;
   left: 560px;
 }
+#Storehouse10:hover {
+  -ms-transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
+  transition: transform 0.7s ease;
+}
 #Boathouse4 {
   width: 162px;
   height: 146px;
@@ -31,6 +53,12 @@
   top: 397px;
   left: 332px;
   cursor: pointer;
+}
+#Boathouse4:hover {
+  -ms-transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
+  transition: transform 0.7s ease;
 }
 #Garden {
   width: 60px;
@@ -40,6 +68,12 @@
   left: 428px;
   cursor: pointer;
 }
+#Garden:hover {
+  -ms-transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
+  transition: transform 0.7s ease;
+}
 #MastPond {
   width: 90px;
   height: 52px;
@@ -48,13 +82,25 @@
   left: 457px;
   cursor: pointer;
 }
+#MastPond:hover {
+  -ms-transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
+  transition: transform 0.7s ease;
+}
 #Statue {
   width: 40px;
   height: 60px;
   position: absolute;
-  top: 421px;
+  top: 416px;
   left: 505px;
   cursor: pointer;
+}
+#Statue:hover {
+  -ms-transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
+  transition: transform 0.7s ease;
 }
 #CellBlock1 {
   width: 68px;
@@ -64,6 +110,12 @@
   left: 287px;
   cursor: pointer;
 }
+#CellBlock1:hover {
+  -ms-transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
+  transition: transform 0.7s ease;
+}
 #Boathouse7 {
   width: 103px;
   height: 94px;
@@ -72,6 +124,12 @@
   left: 503px;
   cursor: pointer;
 }
+#Boathouse7:hover {
+  -ms-transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
+  transition: transform 0.7s ease;
+}
 #Boathouse6 {
   width: 117px;
   height: 105px;
@@ -79,6 +137,12 @@
   top: 535px;
   left: 497px;
   cursor: pointer;
+}
+#Boathouse6:hover {
+  -ms-transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
+  transition: transform 0.7s ease;
 }
 
 .img_size {
@@ -107,8 +171,8 @@
   margin: auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 40vw;
-  height: 35vh;
+  width: 500px;
+  height: 250px;
   top: 11vh;
   right: 3vw;
 }
@@ -127,15 +191,6 @@
   text-decoration: none;
   cursor: pointer;
 }
-
-.about_popup {
-  width: 15vw;
-  height: 27vh;
-  position: relative;
-  left: 23vw;
-  color: white;
-}
-
 .main-content p,
 .main-contentstd p {
   color: white;
@@ -143,4 +198,29 @@
 .main-content a,
 .main-contentstd a {
   color: white;
+}
+.close_modal {
+  cursor: default;
+  color: white;
+  font-weight: bold;
+  margin: auto;
+  padding-bottom: 4%;
+}
+.interactive_links {
+  padding-right: 29%;
+}
+.info_container {
+  display: flex;
+  height: 160px;
+}
+.about_popup {
+  margin-left: auto;
+}
+#character_selection {
+  float: right;
+  padding-right: 1%;
+  padding-left: 1%;
+  height: 500px;
+  width: 275px;
+  text-align: center;
 }

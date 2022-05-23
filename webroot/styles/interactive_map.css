@@ -243,6 +243,7 @@
   border-radius: 25px;
   width: 250px;
   margin-bottom: 10%;
+  cursor: pointer;
 }
 #select1:hover {
   -ms-transform: scale(1.05);
@@ -254,6 +255,7 @@
   border-radius: 25px;
   width: 250px;
   margin-bottom: 10%;
+  cursor: pointer;
 }
 #select2:hover {
   -ms-transform: scale(1.05);
@@ -265,6 +267,7 @@
   border-radius: 25px;
   width: 250px;
   margin-bottom: 10%;
+  cursor: pointer;
 }
 #select3:hover {
   -ms-transform: scale(1.05);

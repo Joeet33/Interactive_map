@@ -223,4 +223,57 @@
   height: 500px;
   width: 275px;
   text-align: center;
+  background-color: #113866;
+  opacity: 82%;
+  color: white;
+  position: relative;
+  right: 1%;
+}
+#character_list {
+  float: left;
+  padding-top: 8%;
+}
+.img_select {
+  height: 90px;
+  margin-left: 0;
+}
+
+#select1 {
+  border-style: solid;
+  border-radius: 25px;
+  width: 250px;
+  margin-bottom: 10%;
+}
+#select1:hover {
+  -ms-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+#select2 {
+  border-style: solid;
+  border-radius: 25px;
+  width: 250px;
+  margin-bottom: 10%;
+}
+#select2:hover {
+  -ms-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+#select3 {
+  border-style: solid;
+  border-radius: 25px;
+  width: 250px;
+  margin-bottom: 10%;
+}
+#select3:hover {
+  -ms-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+#title_select {
+  padding-top: 10%;
+  cursor: default;
+  font-weight: bold;
+  font-size: large;
 }

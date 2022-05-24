@@ -207,11 +207,14 @@
   padding-bottom: 4%;
 }
 .interactive_links {
-  padding-right: 29%;
+  height: 3vh;
 }
 .info_container {
   display: flex;
   height: 160px;
+  font-weight: bold;
+  font-size: medium;
+  padding-top: 10px;
 }
 .about_popup {
   margin-left: auto;
@@ -279,4 +282,15 @@
   cursor: default;
   font-weight: bold;
   font-size: large;
+}
+
+.modal_title {
+  color: white;
+  font-weight: bold;
+  font-size: x-large;
+  text-align: center;
+}
+#tool_links {
+  flex-direction: column;
+  display: flex;
 }

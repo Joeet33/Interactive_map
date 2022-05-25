@@ -4,7 +4,6 @@
   border: 15px #ededed solid;
   overflow: hidden;
   background-image: url(../images/map.png);
-  /* cursor: pointer; */
   background-size: cover;
 }
 
@@ -293,4 +292,90 @@
 #tool_links {
   flex-direction: column;
   display: flex;
+}
+
+#character_selection_mobile {
+  width: 750px;
+  text-align: center;
+  background-color: #113866;
+  opacity: 82%;
+  color: white;
+  position: relative;
+  margin-left: 1.5%;
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  #contentContainer {
+    height: 750px;
+    width: 750px;
+    border: 15px #ededed solid;
+    overflow: hidden;
+    background-image: url(../images/map.png);
+    background-size: cover;
+  }
+  #character_selection {
+    width: 750px;
+    text-align: center;
+    background-color: #113866;
+    opacity: 82%;
+    color: white;
+    position: relative;
+    margin-left: 1.5%;
+    display: none;
+  }
+
+  #character_selection_mobile {
+    width: 750px;
+    text-align: center;
+    background-color: #113866;
+    opacity: 82%;
+    color: white;
+    position: relative;
+    margin-left: 0%;
+    display: block;
+  }
+  #title_select_mobile {
+    padding-top: 2%;
+    cursor: default;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+  }
+  #character_list_mobile {
+    padding-top: 2%;
+    display: flex;
+  }
+  #select1_mobile {
+    border-style: solid;
+    border-radius: 25px;
+    width: 250px;
+    margin-bottom: 10%;
+    cursor: pointer;
+  }
+  #select2_mobile {
+    border-style: solid;
+    border-radius: 25px;
+    width: 250px;
+    margin-bottom: 10%;
+    cursor: pointer;
+  }
+  #select3_mobile {
+    border-style: solid;
+    border-radius: 25px;
+    width: 250px;
+    margin-bottom: 10%;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 768px) {
+  #contentContainer {
+    height: 750px;
+    width: 700px;
+    border: 15px #ededed solid;
+    overflow: hidden;
+    background-image: url(../images/map.png);
+    background-size: cover;
+  }
 }

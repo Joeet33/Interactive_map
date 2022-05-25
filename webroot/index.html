@@ -57,7 +57,7 @@
     />
     <link rel="icon" type="image/x-icon" href="images/favicon.png" />
 
-    <title>Home</title>
+    <title>Interactive Map</title>
   </head>
   <body>
     <form method="post" action="./?pname=about-us&amp;upid=2" id="form1">
@@ -170,39 +170,32 @@
                   <nav id="menu">
                     <label for="tm" id="toggle-menu"
                       >&nbsp;<span class="drop-icon">☰</span></label
-                    ><input type="checkbox" id="tm" />
+                    >
+
+                    <input type="checkbox" id="tm" />
+
                     <ul class="main-menu cf">
                       <li><a href="index.html">Home</a></li>
 
                       <li>
-                        <a href="/Historic-Buildings/3/"
-                          >Augmented Reality<span class="drop-icon">▾</span
-                          ><label
-                            title="Toggle Drop-down"
-                            class="drop-icon"
-                            for="sm3"
-                            >▾</label
-                          ></a
-                        ><input type="checkbox" id="sm3" />
-                        <ul class="sub-menu">
-                          <li>
-                            <a href="/Interactive-Property-Maps/18/"
-                              >Instagram Filters</a
-                            >
-                          </li>
-                          <li>
-                            <a href="/Historic-Dockyard-Portsmouth/16/"
-                              >Interactive AR Experience</a
-                            >
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <a href="/Historic-Boats/4/">Puzzles</a
+                        <a href="augmented_reality.html">Augmented Reality</a
                         ><input type="checkbox" id="sm4" />
                       </li>
+
                       <li>
-                        <a href="/News-and-Events/5/">Historical Timelines</a>
+                        <a href="instagram_filters.html">Instagram Filters</a
+                        ><input type="checkbox" id="sm4" />
+                      </li>
+
+                      <li>
+                        <a href="puzzles.html">Puzzles</a
+                        ><input type="checkbox" id="sm4" />
+                      </li>
+
+                      <li>
+                        <a href="historical_timelines.html"
+                          >Historical Timelines</a
+                        >
                       </li>
                     </ul>
                   </nav>
@@ -292,6 +285,35 @@
                         </div>
                       </div>
                     </div>
+                  </div>
+                </div>
+              </div>
+              <div id="character_selection_mobile">
+                <div id="title_select_mobile">Select a Character</div>
+                <div id="character_list_mobile">
+                  <div id="select1_mobile">
+                    <img
+                      class="img_select_mobile"
+                      src="./images/Characters/Henry 8 Front v2.png"
+                      alt=""
+                    />
+                    King Henry VIII
+                  </div>
+                  <div id="select2_mobile">
+                    <img
+                      class="img_select_mobile"
+                      src="./images/Characters/Nelson Front.png"
+                      alt=""
+                    />
+                    Lord Nelson
+                  </div>
+                  <div id="select3_mobile">
+                    <img
+                      class="img_select_mobile"
+                      src="./images/Characters/Miss Muggins2png.png"
+                      alt=""
+                    />
+                    Miss Muggins
                   </div>
                 </div>
               </div>
@@ -568,6 +590,8 @@
     <script src="./scripts/canvas.js"></script>
 
     <script src="./scripts/display_character.js"></script>
+
+    <script src="./scripts/display_characters_mobile.js"></script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"

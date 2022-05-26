@@ -7,6 +7,13 @@
   background-size: cover;
 }
 
+#container_responsive {
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: 0;
+  margin-left: 0;
+}
+
 #character {
   width: 100px;
   height: 100px;
@@ -217,6 +224,13 @@
 }
 .about_popup {
   margin-left: auto;
+}
+p.about_popup {
+  width: 63%;
+  height: 50%;
+  font-size: small;
+  overflow: scroll;
+  overflow-x: hidden;
 }
 #character_selection {
   float: right;

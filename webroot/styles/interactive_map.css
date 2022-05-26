@@ -5,6 +5,8 @@
   overflow: hidden;
   background-image: url(../images/map.png);
   background-size: cover;
+  position: relative;
+  left: 7%;
 }
 
 #container_responsive {
@@ -363,6 +365,8 @@ p.about_popup {
     display: block;
     border-radius: 10px;
     margin-top: 1%;
+    position: relative;
+    left: 7%;
   }
   #title_select_mobile {
     padding-top: 2%;
@@ -413,6 +417,8 @@ p.about_popup {
     overflow: hidden;
     background-image: url(../images/map.png);
     background-size: cover;
+    position: relative;
+    left: 0;
   }
   #character_selection {
     width: 750px;
@@ -436,6 +442,8 @@ p.about_popup {
     display: block;
     border-radius: 10px;
     margin-top: 1%;
+    position: relative;
+    left: 0;
   }
   #title_select_mobile {
     padding-top: 2%;
@@ -482,6 +490,8 @@ p.about_popup {
     overflow: hidden;
     background-image: url(../images/map_mobile.png);
     background-size: cover;
+    position: relative;
+    left: 0;
   }
   #Storehouse10 {
     width: 93px;
@@ -646,6 +656,8 @@ p.about_popup {
     display: block;
     border-radius: 10px;
     margin-top: 1%;
+    position: relative;
+    left: 0;
   }
   #title_select_mobile_small {
     padding-top: 2%;
@@ -692,6 +704,8 @@ p.about_popup {
     overflow: hidden;
     background-image: url(../images/map_mobile.png);
     background-size: cover;
+    position: relative;
+    left: 0;
   }
   #Storehouse10 {
     width: 93px;
@@ -856,6 +870,8 @@ p.about_popup {
     display: block;
     border-radius: 10px;
     margin-top: 1%;
+    position: relative;
+    left: 0;
   }
   #title_select_mobile_small {
     padding-top: 2%;
@@ -902,6 +918,8 @@ p.about_popup {
     overflow: hidden;
     background-image: url(../images/map_mobile_small.png);
     background-size: cover;
+    position: relative;
+    left: 0;
   }
   #character_selection_mobile {
     width: 250px;
@@ -1038,6 +1056,8 @@ p.about_popup {
     display: block;
     border-radius: 10px;
     margin-top: 1%;
+    position: relative;
+    left: 0;
   }
   #character1 {
     position: absolute;

@@ -44,9 +44,9 @@
   width: 122px;
   height: 133px;
   position: absolute;
-  top: 288px;
+  top: 273px;
   cursor: pointer;
-  left: 560px;
+  left: 532px;
 }
 #Storehouse10:hover {
   -ms-transform: scale(1.25);
@@ -58,8 +58,8 @@
   width: 162px;
   height: 146px;
   position: absolute;
-  top: 397px;
-  left: 332px;
+  top: 385px;
+  left: 305px;
   cursor: pointer;
 }
 #Boathouse4:hover {
@@ -72,8 +72,8 @@
   width: 60px;
   height: 39px;
   position: absolute;
-  top: 607px;
-  left: 428px;
+  top: 598px;
+  left: 399px;
   cursor: pointer;
 }
 #Garden:hover {
@@ -86,8 +86,8 @@
   width: 90px;
   height: 52px;
   position: absolute;
-  top: 506px;
-  left: 457px;
+  top: 498px;
+  left: 433px;
   cursor: pointer;
 }
 #MastPond:hover {
@@ -100,8 +100,8 @@
   width: 40px;
   height: 60px;
   position: absolute;
-  top: 416px;
-  left: 505px;
+  top: 404px;
+  left: 480px;
   cursor: pointer;
 }
 #Statue:hover {
@@ -114,8 +114,8 @@
   width: 68px;
   height: 67px;
   position: absolute;
-  top: 513px;
-  left: 287px;
+  top: 504px;
+  left: 263px;
   cursor: pointer;
 }
 #CellBlock1:hover {
@@ -128,8 +128,8 @@
   width: 103px;
   height: 94px;
   position: absolute;
-  top: 454px;
-  left: 503px;
+  top: 440px;
+  left: 474px;
   cursor: pointer;
 }
 #Boathouse7:hover {
@@ -142,8 +142,8 @@
   width: 117px;
   height: 105px;
   position: absolute;
-  top: 535px;
-  left: 497px;
+  top: 522px;
+  left: 468px;
   cursor: pointer;
 }
 #Boathouse6:hover {
@@ -226,6 +226,14 @@
 }
 .about_popup {
   margin-left: auto;
+}
+.about_popup2 {
+  margin-left: auto;
+  overflow-y: scroll;
+  width: 50%;
+  height: 50%;
+  color: white;
+  cursor: default;
 }
 p.about_popup {
   width: 63%;
@@ -497,9 +505,9 @@ p.about_popup {
     width: 93px;
     height: 93px;
     position: absolute;
-    top: 64px;
+    top: 44px;
     cursor: pointer;
-    left: 198px;
+    left: 172px;
   }
   #Storehouse10:hover {
     -ms-transform: scale(1.25);
@@ -511,8 +519,8 @@ p.about_popup {
     width: 111px;
     height: 101px;
     position: absolute;
-    top: 138px;
-    left: 50px;
+    top: 122px;
+    left: 19px;
     cursor: pointer;
   }
   #Boathouse4:hover {
@@ -525,8 +533,8 @@ p.about_popup {
     width: 40px;
     height: 32px;
     position: absolute;
-    top: 275px;
-    left: 110px;
+    top: 263px;
+    left: 82px;
     cursor: pointer;
   }
   #Garden:hover {
@@ -539,8 +547,8 @@ p.about_popup {
     width: 56px;
     height: 42px;
     position: absolute;
-    top: 211px;
-    left: 139px;
+    top: 196px;
+    left: 108px;
     cursor: pointer;
   }
   #MastPond:hover {
@@ -553,8 +561,8 @@ p.about_popup {
     width: 30px;
     height: 46px;
     position: absolute;
-    top: 150px;
-    left: 163px;
+    top: 131px;
+    left: 137px;
     cursor: pointer;
   }
   #Statue:hover {
@@ -567,8 +575,8 @@ p.about_popup {
     width: 51px;
     height: 42px;
     position: absolute;
-    top: 222px;
-    left: 21px;
+    top: 206px;
+    left: -13px;
     cursor: pointer;
   }
   #CellBlock1:hover {
@@ -581,8 +589,8 @@ p.about_popup {
     width: 80px;
     height: 70px;
     position: absolute;
-    top: 172px;
-    left: 163px;
+    top: 157px;
+    left: 131px;
     cursor: pointer;
   }
   #Boathouse7:hover {
@@ -595,8 +603,8 @@ p.about_popup {
     width: 82px;
     height: 63px;
     position: absolute;
-    top: 237px;
-    left: 154px;
+    top: 222px;
+    left: 126px;
     cursor: pointer;
   }
   #Boathouse6:hover {
@@ -711,9 +719,9 @@ p.about_popup {
     width: 93px;
     height: 93px;
     position: absolute;
-    top: 58px;
+    top: 44px;
     cursor: pointer;
-    left: 198px;
+    left: 172px;
   }
   #Storehouse10:hover {
     -ms-transform: scale(1.25);
@@ -725,8 +733,8 @@ p.about_popup {
     width: 111px;
     height: 101px;
     position: absolute;
-    top: 132px;
-    left: 50px;
+    top: 122px;
+    left: 19px;
     cursor: pointer;
   }
   #Boathouse4:hover {
@@ -739,8 +747,8 @@ p.about_popup {
     width: 40px;
     height: 32px;
     position: absolute;
-    top: 275px;
-    left: 110px;
+    top: 263px;
+    left: 82px;
     cursor: pointer;
   }
   #Garden:hover {
@@ -753,8 +761,8 @@ p.about_popup {
     width: 56px;
     height: 42px;
     position: absolute;
-    top: 209px;
-    left: 135px;
+    top: 196px;
+    left: 108px;
     cursor: pointer;
   }
   #MastPond:hover {
@@ -767,8 +775,8 @@ p.about_popup {
     width: 30px;
     height: 46px;
     position: absolute;
-    top: 150px;
-    left: 163px;
+    top: 131px;
+    left: 137px;
     cursor: pointer;
   }
   #Statue:hover {
@@ -781,8 +789,8 @@ p.about_popup {
     width: 51px;
     height: 42px;
     position: absolute;
-    top: 222px;
-    left: 21px;
+    top: 206px;
+    left: -13px;
     cursor: pointer;
   }
   #CellBlock1:hover {
@@ -795,8 +803,8 @@ p.about_popup {
     width: 80px;
     height: 70px;
     position: absolute;
-    top: 169px;
-    left: 158px;
+    top: 157px;
+    left: 131px;
     cursor: pointer;
   }
   #Boathouse7:hover {
@@ -809,8 +817,8 @@ p.about_popup {
     width: 82px;
     height: 63px;
     position: absolute;
-    top: 237px;
-    left: 154px;
+    top: 222px;
+    left: 126px;
     cursor: pointer;
   }
   #Boathouse6:hover {
@@ -934,12 +942,12 @@ p.about_popup {
     margin-left: 10%;
   }
   #Storehouse10 {
-    width: 77px;
-    height: 85px;
+    width: 93px;
+    height: 93px;
     position: absolute;
-    top: 55px;
+    top: 34px;
     cursor: pointer;
-    left: 182px;
+    left: 150px;
   }
   #Storehouse10:hover {
     -ms-transform: scale(1.25);
@@ -948,11 +956,11 @@ p.about_popup {
     transition: transform 0.7s ease;
   }
   #Boathouse4 {
-    width: 104px;
-    height: 96px;
+    width: 111px;
+    height: 101px;
     position: absolute;
-    top: 122px;
-    left: 40px;
+    top: 105px;
+    left: 6px;
     cursor: pointer;
   }
   #Boathouse4:hover {
@@ -962,11 +970,11 @@ p.about_popup {
     transition: transform 0.7s ease;
   }
   #Garden {
-    width: 37px;
-    height: 26px;
+    width: 40px;
+    height: 32px;
     position: absolute;
-    top: 255px;
-    left: 101px;
+    top: 240px;
+    left: 68px;
     cursor: pointer;
   }
   #Garden:hover {
@@ -976,11 +984,11 @@ p.about_popup {
     transition: transform 0.7s ease;
   }
   #MastPond {
-    width: 53px;
-    height: 37px;
+    width: 56px;
+    height: 42px;
     position: absolute;
-    top: 191px;
-    left: 123px;
+    top: 178px;
+    left: 95px;
     cursor: pointer;
   }
   #MastPond:hover {
@@ -990,11 +998,11 @@ p.about_popup {
     transition: transform 0.7s ease;
   }
   #Statue {
-    width: 20px;
-    height: 30px;
+    width: 30px;
+    height: 46px;
     position: absolute;
-    top: 145px;
-    left: 154px;
+    top: 118px;
+    left: 121px;
     cursor: pointer;
   }
   #Statue:hover {
@@ -1004,11 +1012,11 @@ p.about_popup {
     transition: transform 0.7s ease;
   }
   #CellBlock1 {
-    width: 38px;
-    height: 39px;
+    width: 51px;
+    height: 42px;
     position: absolute;
-    top: 201px;
-    left: 17px;
+    top: 187px;
+    left: -21px;
     cursor: pointer;
   }
   #CellBlock1:hover {
@@ -1018,11 +1026,11 @@ p.about_popup {
     transition: transform 0.7s ease;
   }
   #Boathouse7 {
-    width: 75px;
-    height: 55px;
+    width: 80px;
+    height: 70px;
     position: absolute;
-    top: 161px;
-    left: 146px;
+    top: 137px;
+    left: 113px;
     cursor: pointer;
   }
   #Boathouse7:hover {
@@ -1035,8 +1043,8 @@ p.about_popup {
     width: 82px;
     height: 63px;
     position: absolute;
-    top: 213px;
-    left: 140px;
+    top: 197px;
+    left: 106px;
     cursor: pointer;
   }
   #Boathouse6:hover {

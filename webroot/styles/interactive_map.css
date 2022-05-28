@@ -341,6 +341,11 @@ p.about_popup {
   display: none;
 }
 
+div#info {
+  position: relative;
+  left: 15%;
+}
+
 @media (max-width: 1024px) {
   #contentContainer {
     height: 750px;
@@ -415,6 +420,10 @@ p.about_popup {
     margin-bottom: 2em;
     max-width: 100%;
   }
+  div#info {
+    position: relative;
+    left: 6%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -487,6 +496,11 @@ p.about_popup {
     width: 250px;
     margin-bottom: 10%;
     cursor: pointer;
+  }
+
+  div#info {
+    position: initial;
+    left: 15%;
   }
 }
 
